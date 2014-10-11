@@ -20,6 +20,8 @@ public class Uppgift1 {
       String namn;
       namn = förnamn + " " + efternamn;
       
+        System.out.println("Hej " + namn);
+      
       String personnummer;
       System.out.print("Vad har du för personnummer?:");
       personnummer = user_input.next();
