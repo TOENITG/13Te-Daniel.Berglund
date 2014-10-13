@@ -13,12 +13,16 @@ public class Uppgift1 {
       System.out.print("Vad heter du i förnamn?:");
       förnamn = user_input.next();
       
+      /* Programmet börjar med att fråga om namnet*/
+      
       String efternamn;
       System.out.print("I efternamn?:");
       efternamn = user_input.next();
       
       String namn;
       namn = förnamn + " " + efternamn;
+      
+      /*Jag valde att skapa en ny sträng för efternamn + förnamn, vilket är hela namnet.*/
       
         System.out.println("Hej " + namn);
       
@@ -28,6 +32,8 @@ public class Uppgift1 {
       
       personnummer.substring(2,6);
       
+      /* Jag skapade en subbstring eftersom att endast födelsedatumet ska stå i slutet*/
+      
       String adress;
       System.out.print("Vart bor du någonstans då?:");
       adress = user_input.next();
@@ -35,6 +41,7 @@ public class Uppgift1 {
       
       System.out.print("Välkommen" + " " + namn + ". " + "När du fyller år" + " " + personnummer.substring(2,6) + " " + "kommer vi att komma till" + " " + adress + " " + "och gratulera dig!");
     
+      /*Programmet avslutas med att skriva ut allt som man har skrivit in. Medelandet säger att ett bolgag kommer hem till dig och gratulera dig på din födelsedag*/ 
     }
     
 }
