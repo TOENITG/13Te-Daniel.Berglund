@@ -22,7 +22,7 @@ public class Uppgift2 {
         
         System.out.println(first_input + " " + second_input);
         
-        /*Efter varje inmatning så väljer jag att lägga på dem som resulterar i en lång text med alla inmatningar*/
+        /*Efter varje inmatning så väljer jag att lägga dem efter varandra, som resulterar i en lång text med alla inmatningar*/
         
         String third_input;
         third_input = JOptionPane.showInputDialog("And?");
