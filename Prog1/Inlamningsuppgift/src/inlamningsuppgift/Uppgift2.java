@@ -40,3 +40,17 @@ public class Uppgift2 {
         System.out.println(first_input + " " + second_input + " " + third_input + " " + fourth_input + " " + fifth_input);
  }
 }    
+
+/*
+Bra!
+Du har löst uppgiften på ett bra och enkelt sätt, enkelt på det sättet att det är lätt att förstå koden.
+Även i denna uppgift hade du kunnat spara rader, om du velat genom att göra så här:
+
+        String fifth_input = JOptionPane.showInputDialog("One last thing?");
+
+Det är naturligtvis en smaksak.
+
+Tack!
+*/      
+
+

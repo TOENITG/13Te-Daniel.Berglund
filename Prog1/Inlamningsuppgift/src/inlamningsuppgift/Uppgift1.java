@@ -45,3 +45,11 @@ public class Uppgift1 {
     }
     
 }
+
+// Bra!
+// Programmet gör det som förväntas och det räcker gott.
+// Dokumenteringen är alldeles tillräcklig.
+
+// Vill du vara mer effektiv, så deklarera och använd dina variabler på samma ställe.
+// Det blir mer Java-likt, men också något mer svärtolkat.
+// Rad 33 är helt onödig, du tar ut en delsträng, men använder den inte. På rad 42 är koden i sätt rätta sammanhang.
