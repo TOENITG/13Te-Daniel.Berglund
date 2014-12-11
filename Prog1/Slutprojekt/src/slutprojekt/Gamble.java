@@ -44,13 +44,16 @@ public class Gamble {
             String spelare_insats = user_input.nextLine();
 
             double insats = Double.parseDouble(spelare_insats);
-
+            
+            /*Programmet subtraherar den nuvarande budgeten med insatsen.*/
             budget = budget - insats;
 
+            /*Här använder jag "Random" för att skapa ett slumpmässigt kort.*/
             Random slump_kort = new Random();
             String slump_valör = (kortvalör[slump_kort.nextInt(kortvalör.length)]);
             String slump_värde = (kortvärde[slump_kort.nextInt(kortvärde.length)]);
 
+            /*Här skriver programmet ut det slumpmässiga kortets valör och värde.*/
             System.out.println(slump_valör + " " + slump_värde);
 
             /*Här skapar jag en if-sats för den slumpmässiga valören på kortet.*/
